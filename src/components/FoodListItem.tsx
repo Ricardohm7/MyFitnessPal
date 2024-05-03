@@ -9,7 +9,7 @@ const FoodListItem = ({ item }) => {
       style={styles.container}>
       <View style={{ flex: 1, gap: 5, }}>
         <Text style={{ fontWeight: 'bold', fontSize: 16 }}>{item.label}</Text>
-        <Text style={{ fontWeight: 'dimgray', fontSize: 16 }}>{item.cal} {item.brand}</Text>
+        <Text style={{ color: 'dimgray', fontSize: 16 }}>{item.cal} {item.brand}</Text>
       </View>
       <AntDesign name="pluscircleo" size={24} color="royalblue" />
     </View>
