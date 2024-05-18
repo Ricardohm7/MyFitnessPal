@@ -1,0 +1,4 @@
+{
+  "endpoint": "api/running-peacock",
+  "root": "api/curl"
+}
